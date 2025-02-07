@@ -3,7 +3,7 @@ import pandas as pd
 import plotly.express as px
 
 # Leer los datos
-car_data = pd.read_csv('vehicles_us.csv')
+car_data = pd.read_csv('notebooks/vehicles_us.csv')
 
 # Encabezado de la aplicación
 st.header("Cuadro de Mandos - Anuncios de Venta de Coches")
